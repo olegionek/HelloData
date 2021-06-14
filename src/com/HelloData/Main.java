@@ -1,5 +1,6 @@
 package com.HelloData;
 import java.util.*;
+import java.lang.*;
 
 public class Main {
 
@@ -21,7 +22,7 @@ public class Main {
 	//Exercise N9 Thinking on Java
 	AutoPackager a = new AutoPackager();
 	System.out.println(a.ch);
-	System.out.println(Arrays.toString(args));
+
 
     }
 }
