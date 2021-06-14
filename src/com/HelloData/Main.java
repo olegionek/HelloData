@@ -15,7 +15,6 @@ public class Main {
 	System.out.println(dat.b);
 	System.out.println(dat.storage("baba"));
 	Incrementable.increment();
-	System.out.println();
     }
 }
 
@@ -23,7 +22,7 @@ class ATypeName {
     double a = 2.34;
 }
 class DataOnly {
-    int i;
+    int i=6;
     double d;
     boolean b;
     int storage(String s){
@@ -33,7 +32,7 @@ class DataOnly {
 
 class Incrementable{
 	static void increment (){
-		ATypeName StaticTest = new ATypeName();
-		StaticTest.a++;
+		DataOnly StaticTest = new DataOnly();
+		System.out.println(StaticTest.i++);
 	}
 }
