@@ -13,6 +13,7 @@ public class Main {
 	System.out.println(dat.i);
 	System.out.println(dat.d);
 	System.out.println(dat.b);
+
     }
 }
 
