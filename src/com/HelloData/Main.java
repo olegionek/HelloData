@@ -10,11 +10,14 @@ public class Main {
 	dat.d = 3.45;
 	dat.b = false;
 	System.out.println((dt.a) + " " + (dat.i) + " "+ (dat.d) + " " + (dat.b));
-	System.out.println(dat.i);
-	System.out.println(dat.d);
-	System.out.println(dat.b);
-	System.out.println(dat.storage("baba"));
+	System.out.println(dat.storage());
 	Incrementable.increment();
+	//exercise N8 Thinking on Java p.93
+		ClassObject d = new ClassObject();
+	System.out.println(ClassObject.d);
+	System.out.println(ClassObject.d);
+	System.out.println(ClassObject.d);
+
     }
 }
 
@@ -25,8 +28,8 @@ class DataOnly {
     int i=6;
     double d;
     boolean b;
-    int storage(String s){
-    	return s.length();
+    int storage(){
+    	return "baba".length();
 	}
 }
 
