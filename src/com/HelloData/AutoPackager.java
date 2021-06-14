@@ -5,3 +5,10 @@ package com.HelloData;
 public class AutoPackager {
     Character ch = new Character('f');
 }
+
+class Printer{
+    static void print(String s){
+        System.out.println(s);
+        return;
+    }
+}
