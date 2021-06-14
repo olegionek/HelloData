@@ -14,6 +14,8 @@ public class Main {
 	System.out.println(dat.d);
 	System.out.println(dat.b);
 	System.out.println(dat.storage("baba"));
+	Incrementable.increment();
+	System.out.println();
     }
 }
 
@@ -26,5 +28,12 @@ class DataOnly {
     boolean b;
     int storage(String s){
     	return s.length();
+	}
+}
+
+class Incrementable{
+	static void increment (){
+		ATypeName StaticTest = new ATypeName();
+		StaticTest.a++;
 	}
 }
