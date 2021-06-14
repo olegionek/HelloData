@@ -13,6 +13,7 @@ public class Main {
 	System.out.println(dat.i);
 	System.out.println(dat.d);
 	System.out.println(dat.b);
+	System.out.println(dat.storage("baba"));
 
     }
 }
@@ -24,4 +25,7 @@ class DataOnly {
     int i;
     double d;
     boolean b;
+    int storage(String s){
+    	return s.length();
+	}
 }
