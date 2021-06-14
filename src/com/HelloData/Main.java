@@ -16,7 +16,10 @@ public class Main {
 		ClassObject d = new ClassObject();
 	System.out.println(ClassObject.d);
 	System.out.println(ClassObject.d);
-	System.out.println(ClassObject.d);
+	System.out.println(d.df);
+	//Exercise N9 Thinking on Java
+	AutoPackager a = new AutoPackager();
+	System.out.println(a.ch);
 
     }
 }
