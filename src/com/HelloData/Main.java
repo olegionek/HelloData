@@ -4,22 +4,20 @@ import java.util.*;
 
 public class Main {
 
-	static int result = 0;
-	static void test(int testval, int target){
-		if (testval>target)
-			result = +1;
-		else if(testval<target)
-			result = -1;
-		else
-			result = 0;
-	}
+
 	public static void main(String[] args) {
-		test(10,5);
-		System.out.println(result);
-		test(5,10);
-		System.out.println(result);
-		test(5,5);
-		System.out.println(result);
+
+		for (int i = 0; i < 3; i++){
+			System.out.println("Итерация " + i + ": ");
+			for (int j = 1; j <10; j++) {
+				if (j==5) {
+					break;
+				}
+				System.out.print(j + " ");
+			}
+			System.out.println();
+		}
+		System.out.println("Цикл завершен.");
 	}
 }
 
