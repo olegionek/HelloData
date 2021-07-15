@@ -15,6 +15,7 @@ class Tree {
     void info() {
         System.out.println("Дерево высотой " + height + " м.");
     }
+    // Перегруженный метод
     void info(String s) {
         System.out.println(s + ": Дерево высотой " + height + " м.");
     }
