@@ -8,12 +8,10 @@ public class Jabroni {
         {
             int x=rand.nextInt(2)+1;
             if (x<=1){
-                System.out.println(x);
-                System.out.println("Орел!");
+                System.out.println("Выпало " + x + " Ваш результат: Орел!");
             }
             if (x>=1&&x<=2){
-                System.out.println(x);
-                System.out.println("Решка!");
+                System.out.println("Выпало " + x + " Ваш результат: Решка!");
             }
             else
             {
