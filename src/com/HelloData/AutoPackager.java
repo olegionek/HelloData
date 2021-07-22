@@ -8,6 +8,7 @@ class Tree {
         System.out.print("Сажаем росток: ");
         height = 0;
     }
+
     Tree(int initialHeight) {
         height = initialHeight;
         System.out.println("Создание нового дерева высотой: " + height);
