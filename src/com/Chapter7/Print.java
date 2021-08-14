@@ -4,8 +4,9 @@
  *@author Brus Ekkel, Oleg Nekrasov
  * @version 1.0
 */
-package com.HelloData;
-import java.io.*;
+package com.Chapter7;
+
+import java.io.PrintStream;
 
 public class Print {
     public static void print(Object obj) {
