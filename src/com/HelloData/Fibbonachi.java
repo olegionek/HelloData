@@ -3,7 +3,7 @@ import java.io.IOException;
 import java.io.UnsupportedEncodingException;
 import java.lang.*;
 import java.util.*;
-public class Main {
+public class Fibbonachi {
 
 
 	public static void main(String[] args) throws UnsupportedEncodingException, IOException {
