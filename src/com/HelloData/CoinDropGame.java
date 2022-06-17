@@ -1,7 +1,7 @@
 package com.HelloData;
 import java.util.*;
 
-public class Jabroni {
+public class CoinDropGame {
     public static void Jabroni() {
         Random  rand = new Random();
         for (int i=0;i<=30;i++)
