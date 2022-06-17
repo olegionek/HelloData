@@ -2,7 +2,7 @@ package com.HelloData;
 import java.util.*;
 
 public class Jabroni {
-    public static void main(String[] args) {
+    public static void Jabroni() {
         Random  rand = new Random();
         for (int i=0;i<=30;i++)
         {
