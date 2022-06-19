@@ -5,7 +5,6 @@ import java.lang.*;
 import java.util.*;
 public class Fibbonachi {
 
-
 	static public void fibbonachi() throws IOException {
 		int count;
 		Scanner scn = new Scanner(System.in);
@@ -28,5 +27,3 @@ public class Fibbonachi {
 		 return new Fibbonachi();
 	 }
 }
-
-
