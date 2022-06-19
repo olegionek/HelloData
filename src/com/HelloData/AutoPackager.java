@@ -22,7 +22,7 @@ class Tree {
 }
 
 public class AutoPackager {
-    public static void main(String[] args) {
+    public static void autoPackager() {
         for (int i = 0; i < 5; i++) {
             Tree t = new Tree(i);
             t.info();
