@@ -41,6 +41,9 @@ public class CADSystem  extends Shape{
         System.out.println("CADSystem.dispose()");
         //Завершение осуществляется в порядке;
         //Обратном порядке инициализации.
-
+        t.dispose();
+        for(int i = lines.length-1; i>=0;i--)
+            lines[i].dispose();
+        super.dispose();
     }
 }
